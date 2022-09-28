@@ -1,0 +1,90 @@
+.page-main{
+    background: #C4C4C4;
+    width: 661px;
+    height: 763px;
+    margin:0 auto;
+    padding: 62px 84px 72px 74px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;    
+    color: #000000;
+}
+
+.page-main__search{
+    width:500px;
+    line-height: 56px;
+    font-size: 48px;
+    height:61px;
+}
+
+.selected-ones{
+    margin-top: 45px;;
+    width:500px;
+}
+
+.selected-ones__card{
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+.card{
+    width: 503px;
+    height: 101px;
+    background: #E27BEB;
+}
+
+.card__describe{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card__delete-button{
+    cursor: pointer;
+    width: 42px;
+    height: 38.5px;
+    align-self: center;
+    display: block;
+    border:none;
+    --weight: 3px;
+    --aa: 1px; 
+    --color: red;
+    border-radius: 3px;
+    background:
+        linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
+        linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
+}
+
+.autocomplete{
+    list-style-type: none;
+    padding: 0;
+    border:none;
+    width:500px;
+    background: #E3E3E3;
+    margin:0;
+}
+
+.autocomplete__item{
+    max-width: 500px;
+    height: 44px;    
+    border: 2px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    padding-left: 13px;
+}
+
+.autocomplete__item:hover{
+    background: #65CDF9;
+}
